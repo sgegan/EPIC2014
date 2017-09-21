@@ -1,0 +1,42 @@
+.collapseomatic {
+	background-image: url(images/arrow-down.png);
+	background-repeat: no-repeat;
+	padding: 0 0 10px 16px;
+	cursor: pointer;
+	color: #8B272D;
+	display: inline-block;
+	margin-bottom: -10px;
+	margin-top: 15px;
+}
+.arrowright {
+	background-position: top right;
+	padding: 0 16px 10px 0;
+}
+.noarrow {
+	background-image: none !important;
+	padding: 0 0 10px 0;
+}
+.colomat-hover {
+	text-decoration: underline;
+}
+.colomat-close {
+	background-image: url(images/arrow-up.png);
+}
+.collapseomatic_excerpt, .collapseomatic_content {
+	margin: 0px 0px 2px 16px;
+	padding: 0px;
+}
+.content_collapse_wrapper {
+	position: absolute; left: -999em;
+}
+.collapseall, .expandall {
+	cursor: pointer;
+}
+.collapseall:hover, .expandall:hover {
+	text-decoration: underline;
+}
+.maptastic {
+    position: absolute !important;
+	left: -10000px !important;
+	display:block !important;
+}
